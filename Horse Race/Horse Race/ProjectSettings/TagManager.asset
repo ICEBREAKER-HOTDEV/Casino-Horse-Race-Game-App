@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BrownHorse
+  - WhiteHorse
+  - BlackHorse
+  - GreyHorse
+  - FinishFlag
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1122171619
+    locked: 0
+  - name: FinishFlag
+    uniqueID: 2338708523
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GreyHorse
+    uniqueID: 2538127707
+    locked: 0
+  - name: BlackHorse
+    uniqueID: 3466487825
+    locked: 0
+  - name: WhiteHorse
+    uniqueID: 3487837445
+    locked: 0
+  - name: BrownHorse
+    uniqueID: 3004871803
+    locked: 0
