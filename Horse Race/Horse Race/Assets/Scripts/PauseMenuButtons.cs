@@ -13,7 +13,7 @@ public class PauseMenuButtons : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void Update()
