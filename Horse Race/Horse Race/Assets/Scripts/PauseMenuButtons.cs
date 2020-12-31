@@ -1,10 +1,12 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
 
+
 public class PauseMenuButtons : MonoBehaviour
 {
-    [SerializeField] private GameObject pauseMenuUI;        //Buradaki [SerializeField] komutu private değişkenleri inspectorda public ve görünür yapmak için kullanılır.
+    [SerializeField] private GameObject pauseMenuUI;      //Buradaki [SerializeField] komutu private değişkenleri inspectorda public ve görünür yapmak için kullanılır.
     [SerializeField] private bool isPaused;
+
 
     public void MainMenu()
     {
