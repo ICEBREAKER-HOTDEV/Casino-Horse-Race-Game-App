@@ -10,7 +10,7 @@ public class HorseRun : MonoBehaviour
     void FixedUpdate()
     {
         transform.Translate(speed * Time.deltaTime, 0, 0);                  //Translate sadece fizik gerekmeyen yerlerde kullanılmalıdır. Aksi takdirde rigidbody kullanılmalı
-        randomNo = Random.Range(0, 11);                 //Denenecek : collider yerine koordinatı belli bir x değerine ulaştığında kazansın mesela
+        randomNo = Random.Range(0, 11); 
 
         if (randomNo < 5)
             Accelerate();

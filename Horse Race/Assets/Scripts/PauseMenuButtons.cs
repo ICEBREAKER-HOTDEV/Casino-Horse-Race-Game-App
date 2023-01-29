@@ -5,9 +5,8 @@ using UnityEngine;
 public class PauseMenuButtons : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenuUI;      //Buradaki [SerializeField] komutu private değişkenleri inspectorda public ve görünür yapmak için kullanılır.
-    [SerializeField] private bool isPaused;
-
-
+    private bool isPaused;
+    
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -23,10 +22,14 @@ public class PauseMenuButtons : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
             isPaused = !isPaused;
 
-        if (isPaused)
+        if (isPaused) {
             ActivateMenu();
-        else
+            Cursor.visible = true;
+        }
+        else {
             DeactivateMenu();
+            Cursor.visible = false;
+        }
     }
 
     void ActivateMenu()

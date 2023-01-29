@@ -6,6 +6,7 @@ public class WhoWins : MonoBehaviour
 {
     public Collider2D finishLine;
     [SerializeField] private GameObject endGameHUD;
+    [SerializeField] private GameObject pauseMenuUI; 
     public Text winner;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,6 +33,14 @@ public class WhoWins : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    void Update() 
+    {
+        if (pauseMenuUI.activeSelf == true) {
+            endGameHUD.SetActive(false);
+            Cursor.visible = true;
+        }
     }
 }
 
