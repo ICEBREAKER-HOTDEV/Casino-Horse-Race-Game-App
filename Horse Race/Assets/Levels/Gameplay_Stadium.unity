@@ -1161,8 +1161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1584798345}
-  isPaused: 0
-  buttonClick: {fileID: 0}
 --- !u!4 &973250864
 Transform:
   m_ObjectHideFlags: 0
@@ -1470,12 +1468,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.58}
   m_EdgeRadius: 0
---- !u!82 &1560989552 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 4850568328788879306, guid: 1143b407e5cf1b847a823ebf3efe7bfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 337000932}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1584798345
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,8 +1870,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1584798345}
-  isPaused: 0
-  buttonClick: {fileID: 1560989552}
 --- !u!1001 &1865075096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1887,6 +1877,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1042121216109248270, guid: 6e68c1296b36c104eb91ecd4f5baa70d,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042121216109248270, guid: 6e68c1296b36c104eb91ecd4f5baa70d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 4375151882708270323, guid: 6e68c1296b36c104eb91ecd4f5baa70d,
         type: 3}
       propertyPath: m_Pivot.x

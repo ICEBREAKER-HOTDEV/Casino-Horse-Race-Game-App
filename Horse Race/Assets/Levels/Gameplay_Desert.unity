@@ -996,7 +996,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1584798345}
-  isPaused: 0
 --- !u!4 &973250864
 Transform:
   m_ObjectHideFlags: 0
@@ -1673,7 +1672,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1584798345}
-  isPaused: 0
 --- !u!1 &2045434698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,6 +1880,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1042121216109248270, guid: 6e68c1296b36c104eb91ecd4f5baa70d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7824224628167186234, guid: 6e68c1296b36c104eb91ecd4f5baa70d,
         type: 3}
