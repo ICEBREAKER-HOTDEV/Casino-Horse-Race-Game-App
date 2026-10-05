@@ -4,7 +4,7 @@
     
 # Horse Race Game
 
-A casino style horse racing game for making bets with friends which made with Unity
+A casino style horse racing game for making bets with friends which made with Unity.
 
 
 
